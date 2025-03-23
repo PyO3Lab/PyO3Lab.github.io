@@ -1,6 +1,6 @@
 site_name: PyO3 Lab
 site_description: Let's get rusty with pyo3!
-site_url: https://PyO3Lab.github.io
+site_url: https://pyo3lab.github.io/
 docs_dir: docs
 
 theme:
@@ -9,7 +9,6 @@ theme:
   favicon: _assets/pyo3lab.ico
   logo: _assets/pyo3lab.png
   palette:
-    # 默认浅色方案 (含自定义颜色)
     - scheme: default
       primary: green
       accent: light-green
@@ -18,22 +17,20 @@ theme:
         icon: material/brightness-7
         name: Switch to dark mode
 
-    # 深色方案
     - scheme: slate
       media: "(prefers-color-scheme: dark)"
       toggle:
         icon: material/brightness-4
         name: Switch to system preference
 
-    # 自动模式切换入口
     - media: "(prefers-color-scheme)"
       toggle:
         icon: material/brightness-auto
         name: Switch to light mode
 
-    
-repo_url: https://github.com/PyO3Lab/PyO3Lab.github.io
-repo_name: PyO3Lab/PyO3Lab.github.io
-copyright: Copyright © 2020 PyO3Lab
+
+copyright: Copyright © 2025 PyO3Lab
 nav:
   - Home: index.md
+  - Projects: projects.md
+  - Wishlist: wishlist.md
