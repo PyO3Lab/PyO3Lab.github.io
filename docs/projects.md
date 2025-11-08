@@ -1,9 +1,10 @@
 # Project Tracker
 
-## Active Development
+Keep an eye on what the lab is planning, building, and shipping.
 
-### `reta` [![Status](https://img.shields.io/badge/status-alpha-red)](https://github.com/PyO3Lab/reta)
+{% for status in project_status_order %}
+## {{ project_headings["en"][status] }}
 
-A python binding for [tera](https://github.com/Keats/tera) .
+{{ projects_table("en", status) }}
 
-## Completed Projects
+{% endfor %}

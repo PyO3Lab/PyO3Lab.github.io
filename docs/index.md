@@ -18,4 +18,4 @@ Modern computing demands both developer productivity and system efficiency. By c
 - Access to Rust's growing crate ecosystem
 - Hybrid programming without sacrificing Python's ease-of-use
 
-[Explore Our Projects](#) | [Contribute Ideas](wishlist.md)
+[Explore Our Projects](projects.md) | [Contribute Ideas](wishlist.md)
