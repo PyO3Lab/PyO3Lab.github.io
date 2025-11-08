@@ -1,0 +1,36 @@
+[
+    {
+        "id": "pytera",
+        "name": "pytera",
+        "origin": {
+            "label": "tera",
+            "url": "https://github.com/Keats/tera"
+        },
+        "link": {
+            "label": "PyO3Lab/pytera",
+            "url": "https://github.com/PyO3Lab/pytera"
+        },
+        "desc": {
+            "en": "Python bindings that bring Rust-speed template rendering to Python projects.",
+            "zh": "为 Python 带来 Rust 级模板渲染性能的绑定实现。"
+        },
+        "status": "done"
+    },
+    {
+        "id": "pspy",
+        "name": "pspy",
+        "origin": {
+            "label": "py-spy",
+            "url": "https://github.com/benfred/py-spy"
+        },
+        "link": {
+            "label": "",
+            "url": ""
+        },
+        "desc": {
+            "en": "Sampling profiler for Python programs ",
+            "zh": "用于Python程序的采样分析器"
+        },
+        "status": "on_developing"
+    }
+]

@@ -18,7 +18,7 @@ theme:
         name: Switch to dark mode
 
     - scheme: slate
-      media: "(prefers-color-scheme: dark)"
+      media: "(prefers-color-scheme: dark)" 
       toggle:
         icon: material/brightness-4
         name: Switch to system preference
@@ -28,9 +28,41 @@ theme:
         icon: material/brightness-auto
         name: Switch to light mode
 
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - pymdownx.highlight
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+plugins:
+  - search
+  - macros
+  - i18n:
+      languages:
+        - locale: en
+          name: English
+          default: true
+          build: true
+        - locale: zh
+          name: 中文
+          build: true
+          nav_translations:
+            Home: 主页
+            Projects: 项目
+            Wishlist: 心愿单
+
 
 copyright: Copyright © 2025 PyO3Lab
 nav:
   - Home: index.md
   - Projects: projects.md
   - Wishlist: wishlist.md
+
+watch:
+  - projects.json
+  - main.py
